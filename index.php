@@ -6,7 +6,10 @@
     <link href="index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div id="header">
+        <h1>Inlever Opdrachten PHP</h1>
+    </div>
+    <div id="menu">
         <h1>Dit zijn mijn Opdrachten:</h1>
         <ul>
             <li>
