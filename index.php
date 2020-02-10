@@ -27,9 +27,74 @@
                     </li>
                 </ul>
             </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hoofdstuk 1
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    </li>
+                </ul>
+            </li>
 
         </ul>
     </div>
+    <p>Uitwerking</p>
 
 
 </body>
