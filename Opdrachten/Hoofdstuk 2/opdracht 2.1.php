@@ -17,7 +17,7 @@
     <h1><a href="../../index.php">Inlever Opdrachten PHP</a></h1>
 </div>
 <?php
-    echo "Hello World!"
+    echo "Hello World!";
 ?>
 </body>
 </html>

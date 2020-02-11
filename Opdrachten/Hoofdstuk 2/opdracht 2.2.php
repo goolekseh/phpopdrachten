@@ -37,7 +37,7 @@ echo "<p>".$text1.$text11.$text4.$text5.$text3.$text10.$text7.$text10.$text8.$te
 ?>
 <h1>Taak 3</h1>
 <?php
-echo "<p>".$text1.$text11.$text12.$text8.$text15." dat".$text5.$text3.$text13.$text10.$text12.$text7.$text10.$text14.$text9."</p>"
+echo "<p>".$text1.$text11.$text12.$text8.$text15." dat".$text5.$text3.$text13.$text10.$text12.$text7.$text10.$text14.$text9."</p>";
 ?>
 </body>
 </html>
