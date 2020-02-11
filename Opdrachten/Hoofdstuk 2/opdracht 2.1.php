@@ -9,28 +9,16 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title><?php print "Index"; ?></title>
-    <link href="style/index.css" type="text/css" rel="stylesheet">
+    <title><?php print "opdracht 2.1.php"; ?></title>
+    <link href="../template%20css/template.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div id="header">
-    <h1>Inlever Opdrachten PHP</h1>
+    <h1><a href="../../index.php">Inlever Opdrachten PHP</a></h1>
 </div>
-<div id="menu">
-    <h1>Dit zijn mijn Opdrachten:</h1>
-    <ul>
-        <li>
-            Hoofdstuk 1
-            <ul>
-                <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
-                </li>
-            </ul>
-        </li>
-
-    </ul>
-</div>
-
-
+<?php
+    echo "<p>Hello World!</p>"
+?>
+<a href="../../index.php">Terug</a>
 </body>
 </html>

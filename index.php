@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header">
-        <h1>Inlever Opdrachten PHP</h1>
+        <h1><a href="index.php">Inlever Opdrachten PHP</a></h1>
     </div>
     <div id="menu">
         <h1>Dit zijn mijn Opdrachten:</h1>
@@ -28,10 +28,10 @@
                 </ul>
             </li>
             <li>
-                Hoofdstuk 1
+                Hoofdstuk 2
                 <ul>
                     <li>
-                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                        <a href="Opdrachten/Hoofdstuk%202/opdracht%202.1.php">opdracht 2.1.php</a>
                     </li>
                 </ul>
             </li>
@@ -94,8 +94,11 @@
 
         </ul>
     </div>
-    <p>Uitwerking</p>
-
+    <p>
+        <?php
+            echo('Klik op Inlever Opdrachten PHP om terug te gaan naar het hoofdmenu als u in een opdracht zit.')
+        ?>
+    </p>
 
 </body>
 </html>
