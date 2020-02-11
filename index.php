@@ -33,6 +33,9 @@
                     <li>
                         <a href="Opdrachten/Hoofdstuk%202/opdracht%202.1.php">opdracht 2.1.php</a>
                     </li>
+                    <li>
+                        <a href="Opdrachten/Hoofdstuk%202/opdracht%202.2.php">opdracht 2.2.php</a>
+                    </li>
                 </ul>
             </li>
             <li>
