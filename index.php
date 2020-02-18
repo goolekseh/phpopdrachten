@@ -39,10 +39,10 @@
                 </ul>
             </li>
             <li>
-                Hoofdstuk 1
+                Hoofdstuk 3
                 <ul>
                     <li>
-                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                        <a href="Opdrachten/hoofdstuk3/opdracht%203.1.php">opdracht 3.1.php</a>
                     </li>
                 </ul>
             </li>

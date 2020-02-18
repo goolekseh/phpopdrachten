@@ -28,7 +28,7 @@
     $jaar = 1909;
     $keer = 15;
     $aantal = 1;
-    $verhaal = "De ".$evenement." (Fries: ".$fries.") is een ".$kilometers." kilometer lange ".$actie." over ".$ijs." die wordt georganiseerd door de ".$vereniging.". ".$plaatsnaam.", de hoofdstad van ".$provincie.", is start- en aankomstplaats. De ".$evenement." is inmidels ".$keer." maal verreden en werd voor het eerst in ".$jaar." gereden en wordt maximaal ".$aantal." keer per winter gehouden.";
+    $verhaal = "<p> De ".$evenement." (Fries: ".$fries.") is een ".$kilometers." kilometer lange ".$actie." over ".$ijs." die wordt georganiseerd door de ".$vereniging.". ".$plaatsnaam.", de hoofdstad van ".$provincie.", is start- en aankomstplaats. De ".$evenement." is inmidels ".$keer." maal verreden en werd voor het eerst in ".$jaar." gereden en wordt maximaal ".$aantal." keer per winter gehouden.</p>";
     echo $verhaal;
 
 ?>
