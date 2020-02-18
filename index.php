@@ -98,9 +98,7 @@
         </ul>
     </div>
     <p>
-        <?php
-            echo('Klik op Inlever Opdrachten PHP om terug te gaan naar het hoofdmenu als u in een opdracht zit.')
-        ?>
+
     </p>
 
 </body>

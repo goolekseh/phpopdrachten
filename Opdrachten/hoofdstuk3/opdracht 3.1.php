@@ -2,7 +2,7 @@
 * User: Teun van Helvoort
 * Date: 5/2/2020
 * Time: 2:53 PM
-* File: opdracht 2.1.php
+* File: opdracht 3.1.php
 -->
 <!DOCTYPE html>
 
@@ -26,8 +26,10 @@
     $plaatsnaam = "Leeuwarden";
     $provincie = "Friesland";
     $jaar = 1909;
+    $keer = 15;
     $aantal = 1;
-
+    $verhaal = "De ".$evenement." (Fries: ".$fries.") is een ".$kilometers." kilometer lange ".$actie." over ".$ijs." die wordt georganiseerd door de ".$vereniging.". ".$plaatsnaam.", de hoofdstad van ".$provincie.", is start- en aankomstplaats. De ".$evenement." is inmidels ".$keer." maal verreden en werd voor het eerst in ".$jaar." gereden en wordt maximaal ".$aantal." keer per winter gehouden.";
+    echo $verhaal;
 
 ?>
 </body>
