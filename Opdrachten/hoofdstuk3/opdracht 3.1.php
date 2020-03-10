@@ -17,6 +17,7 @@
     <h1><a href="../../index.php">Inlever Opdrachten PHP</a></h1>
 </div>
 <?php
+
     $evenement = "Elfstedentocht";
     $fries = "Alvestedetocht";
     $kilometers = 200;
