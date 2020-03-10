@@ -17,13 +17,13 @@
     include "../../index.php";
     date_default_timezone_set("Europe/Amsterdam");
     $uur = date("H");
-    if($date <= 5){
+    if($uur <= 5){
         echo "Goedennacht";
     }
-    else if($date > 5 && $date <= 12){
+    else if($uur > 5 && $uur <= 12){
         echo "Goedenochtend";
     }
-    else if($date > 12 && $date <= 17){
+    else if($uur > 12 && $uur <= 17){
         echo "Goedenmiddag";
     }
     else{
