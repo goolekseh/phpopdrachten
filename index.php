@@ -47,10 +47,15 @@
                 </ul>
             </li>
             <li>
-                Hoofdstuk 1
+                Hoofdstuk 4
                 <ul>
                     <li>
-                        <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                        <a href="Opdrachten/Hoofdstuk%204/Opdracht%204.1.php">helloworld.php</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="Opdrachten/Hoofdstuk%204/Opdracht%204.2.php">helloworld.php</a>
                     </li>
                 </ul>
             </li>
