@@ -26,7 +26,7 @@ for($counter = 0; $counter <= 7; $counter++) {
     echo " is ";
     echo date("l", $count);
     echo " ";
-    echo date("Y-m-d", $count)."</p>";
+    echo date("l w Y-m-d", $count)."</p>";
 }
 ?>
 
