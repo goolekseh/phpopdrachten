@@ -9,7 +9,7 @@ include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
     <link href="/../phpopdrachten/Opdrachten/template%20css/template.css" type="text/css" rel="stylesheet">
 </head>
 <div id="main">
-    <form action="../Opdrachten/hoofdstuk%205/Opdracht%205.3/form.php" method="post">
+    <form action="../Opdrachten/hoofdstuk%205/Opodracht%205.3/frm.php" method="post">
         <table>
             <tr>
                 <td>
@@ -33,9 +33,9 @@ include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
                 </td>
                 <td>
                     <select name="gemeente" id="gemeente">
-                        <option value="Den Bosch">Den Bosch</option>
-                        <option value="Haaften">Haaften</option>
-                        <option value="Amsterdam">Amsterdam</option>
+                        <option value="Den Bosch">Vlijmen</option>
+                        <option value="Haaften">Heusden</option>
+                        <option value="Amsterdam">Denbosch</option>
                     </select>
                 </td>
             </tr>

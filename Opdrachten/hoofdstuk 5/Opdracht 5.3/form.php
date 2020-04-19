@@ -23,7 +23,7 @@ include "/inetpub/wwwroot/phpopdrachten/includes/m";
             <td class="bold">Leeftijd</td>
             <td>
                 <?php
-                echo $_POST["age"]
+                echo $_POST["age"];
                 ?>
             </td>
         </tr>
