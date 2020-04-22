@@ -16,27 +16,36 @@ include "/inetpub/wwwroot/phpopdrachten/Opdrachten/eindopdracht/script.php"
 <?php
 echo $message
 ?>
-<form method="post" action="login.php" id="login">
-    <table>
-        <tr>
-            <td>
-                <label for="username">Username </label>
-            </td>
-            <td>
-                <input type="text" name="username" id="username">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="wachtwoord">Password </label>
-            </td>
-            <td>
-                <input type="password" name="password" id="wachtwoord">
-            </td>
-        </tr>
-    </table>
-    <input type="submit">
-</form>
+<?php
+if($loginCheck != true) {
+    ?>
+    <form method = "post" action = "login.php" id = "login">
+    <table >
+        <tr >
+            <td >
+                <label for="username" > Username </label >
+            </td >
+            <td >
+                <input type = "text" name = "username" id = "username" >
+            </td >
+        </tr >
+        <tr >
+            <td >
+                <label for="wachtwoord" > Password </label >
+            </td >
+            <td >
+                <input type = "password" name = "password" id = "wachtwoord" >
+            </td >
+        </tr >
+    </table >
+    <input type = "submit" >
+</form >
+<?php
+}
+else{
+
+}
+?>
 <?php
 if($loginCheck == true){
     ?>

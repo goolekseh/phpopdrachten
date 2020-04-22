@@ -15,6 +15,8 @@ $loginCheck = false;
 foreach($login as $username => $password) {
     if($_POST["username"] == $username && $_POST["password"] == $password){
         $loginCheck = true;
+        $message = "";
+        break;
     } elseif ($_POST["username"] == "" && $_POST["password"] == ""){
         $message = "u heeft een vak leeggelaten";
     } else{
