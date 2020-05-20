@@ -19,3 +19,13 @@
 ?>
 </body>
 </html>
+
+<?php
+if (isset($_SESSION['username'])) {
+    $bezoeker = $_SESSION['username'] . "&nbsp; <a class='footer'
+                                               href='/../phpopdrachten/Opdrachten/Hoofdstuk%206/welkom.php'>Loguit</a>";
+} else {
+    $bezoeker = "onbekende bezoeker" . "&nbsp; <a class='footer'
+                                              href='/../phpopdrachten/Opdrachten/Hoofdstuk%206/Opdracht%206.1.php/'>Login</a>";
+}
+?>
