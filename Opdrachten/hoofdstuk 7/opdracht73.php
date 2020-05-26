@@ -1,4 +1,36 @@
 <?php
+
+
+// Inladen functies bestand
+include("functions.php");
+
+// Starten van een database connectie
+startConnection();
+
+// Executeren van een SQL query
+$query = "SELECT * FROM joke";
+
+if(isset($_GET["searchResult"]))
+{
+    $query = "SELECT * FROM joke";
+    if (!empty($_GET["searchResult"])) {
+        $src = $_GET["searchResult"];
+
+        $query = "SELECT * FROM joke WHERE joketext LIKE '%$src%'";
+    }
+}
+
+$jokes = executeQuery($query);
+echo "<p> $query </p>";
+
+?>
+    <form method="GET">
+        <input type="text" name="searchResult">
+        <button type="submit">Zoeken</button>
+
+    </form>
+    <hr>
+<?php
 try {
     $pdo = new PDO("odbc:odbc2sqlserver");
 }
@@ -14,24 +46,17 @@ echo "database connectie gelukt <br><br>";
 try{
     $sql = 'SELECT * FROM joke';
     $result = $pdo->query($sql);
-    print "<table> <tr><td>ID</td><td>joketext</td><td>jokeclou</td><td>Jokedate</td></tr>";
+    echo "<table> <tr><td>ID</td><td>joketext</td><td>jokeclou</td><td>Jokedate</td></tr>";
     foreach ($result as $row) {
 
-        print "<tr>"."<td>".$row["id"]."<td>".$row["joketext"]." </td>"."<td>".$row["jokeclou"]." </td>"."<td>".$row["jokedate"]."</td></tr>";
+        echo "<tr>"."<td>".$row["id"]."<td>".$row["joketext"]." </td>"."<td>".$row["jokeclou"]." </td>"."<td>".$row["jokedate"]."</td></tr>";
 
     }
-    print "</table>";
+    echo "</table>";
 }
 catch (PDOException $e){
     echo 'Er is een probleem met ophalen van jokes: ', $e->getMessage();
     exit();
 }
 
-//$aJokes = array();
-
-//while ($row = $result->fetch(PDO::FETCH_ASSOC)){
-//    $aJokes[] = $row;
-//}
-
-//var_dump($aJokes);
 echo "</pre>";

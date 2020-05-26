@@ -17,7 +17,7 @@ try{
     print "<table> <tr><td>ID</td><td>joketext</td><td>jokeclou</td><td>Jokedate</td></tr>";
     foreach ($result as $row) {
 
-        print "<tr>"."<td>".$row["id"]."<td>".$row["joketext"]." </td>"."<td>".$row["jokeclou"]." </td>"."<td>".$row["jokedate"]."</td></tr>";
+        echo "<tr>"."<td>".$row["id"]."<td>".$row["joketext"]." </td>"."<td>".$row["jokeclou"]." </td>"."<td>".$row["jokedate"]."</td></tr>";
 
     }
     print "</table>";
